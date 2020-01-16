@@ -1,0 +1,26 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  padding: 8px 0;
+  background-color: #66ccff;
+  border-top: 1px solid #089de3;
+}
+
+#footer .footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#footer .footer-row .social-icon {
+  padding: 0px 5px 5px;
+}

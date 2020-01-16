@@ -1,0 +1,32 @@
+.nav-mobile {
+  display: none;
+}
+
+.nav-mobile .nav-right {
+  padding-right: 25px;
+}
+
+.nav-mobile #hamburger-toggle img {
+  width: 32px;
+  background-color: none;
+}
+
+.nav-mobile .nav-dropdown {
+  justify-content: center;
+  padding-right: 25px;
+}
+
+.nav-mobile .nav-dropdown ul {
+  list-style-type: none;
+}
+
+.nav-mobile .nav-dropdown ul li {
+  padding: 3px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .nav-mobile {
+    display: block;
+  }
+}
